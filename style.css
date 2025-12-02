@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(0, 50, 93);
+    max-width: 900px;
+    margin: 0 auto;                             
+    padding: 20px;
+    height: 90vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 25px;
+    width: 900px;
+    border-radius: 5px;
+    color: #333;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.display-bug {
+    background-color: rgb(220, 239, 255);
+    margin: 15px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+    border-radius: 12px;
+    border-left: 5px solid #ff4444;
+}
+
+.bug-btn {
+    background: #4CAF50;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+}
+
+#bugList {
+    background-color: rgb(231, 244, 255);
+    border-radius: 4px;
+    list-style: none;
+    padding: 10px;
+}
+
+#bugList li {
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #333;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.1);
+}
+
+.bug-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.bug-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bug-severity {
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.severity-low {
+    background: #ffa994;
+    color: #155724;
+}
+
+.severity-medium {
+    background: #ff7b5a;
+    color: #856404;
+}
+
+.severity-high {
+    background: #ff4c20;
+    color: #721c24;
+}
+
+.bug-desc {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.bug-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.bug-date {
+    color: #999;
+}
+
+.bug-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.status-new {
+    background: #17a2b8;
+    color: white;
+}
+
+.status-open {
+    background: #ffc107;
+    color: #333;
+}
+
+.status-fixed {
+    background: #28a745;
+    color: white;
+}
+
+.status-btns button {
+    padding: 5px 10px;
+    font-size: 11px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    transition: background 0.3s;
+}
+
+.status-buttons button:hover {
+    background: #0056b3;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+}
